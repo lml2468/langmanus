@@ -2,7 +2,7 @@ from src.config import TEAM_MEMBERS
 from enum import Enum
 
 # List of streaming LLM agents
-STREAMING_LLM_AGENTS = [*TEAM_MEMBERS, "planner", "coordinator"]
+STREAMING_LLM_AGENTS = [*TEAM_MEMBERS, "initial_planner", "replanner", "coordinator"]
 
 
 # Event type enumeration

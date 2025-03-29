@@ -44,7 +44,7 @@ def run_agent_workflow(user_input: str, debug: bool = False):
         # Runtime Variables
         "messages": [{"role": "user", "content": user_input}],
         "deep_thinking_mode": True,
-        "search_before_planning": True,
+        "search_before_planning": False,
     }
     config = {"configurable": {"thread_id": "default"}}
     result = graph.invoke(input=initial_state, config=config)

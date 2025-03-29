@@ -59,7 +59,7 @@ TEAM_MEMBER_CONFIGRATIONS = {
             "Directly interacts with web pages, performing complex operations and interactions. "
             "You can also leverage `browser` to perform in-domain search, like Facebook, Instgram, Github, etc."
         ),
-        "is_optional": True,
+        "is_optional": False,
     },
     "reporter": {
         "name": "reporter",
@@ -67,7 +67,7 @@ TEAM_MEMBER_CONFIGRATIONS = {
             "Responsible for summarizing analysis results, generating reports and presenting final outcomes to users"
         ),
         "desc_for_llm": "Write a professional report based on the result of each step.",
-        "is_optional": False,
+        "is_optional": True,
     },
 }
 

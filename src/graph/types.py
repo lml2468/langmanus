@@ -24,5 +24,9 @@ class State(MessagesState):
     # Runtime Variables
     next: str
     full_plan: str
+    todo_tasks: list[dict]
+    completed_tasks: list[dict]
+    current_task: dict
+    task_result: dict
     deep_thinking_mode: bool
     search_before_planning: bool
